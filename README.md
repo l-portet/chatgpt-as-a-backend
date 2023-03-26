@@ -5,7 +5,7 @@ Small experiment to see if it's possible to use ChatGPT as a backend
 It's as easy as 1, 2, 3!
 
 ```javascript
-import { GPTBackendAPI } from 'chatgpt-as-a-backend';
+import { Client as GPTBackendAPI } from 'chatgpt-as-a-backend';
 
 // Just give it a context, that's it
 const api = new GPTBackendAPI({ context: 'This is a todo app' });
